@@ -1,81 +1,112 @@
 <!DOCTYPE html>
-<html lang="ES">
+<html lang="es">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ejemplo de HTML y CSS" />
-    <meta name="keywords" content="HTML, CSS, Ejemplo" />
     <meta charset="UTF-8" />
-    <title>Ejemplo Html-CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ejemplo de HTML y CSS con estilo Cyberpunk."
+    />
+    <meta name="keywords" content="HTML, CSS, Cyberpunk, Ejemplo" />
+    <link rel="stylesheet" href="../Content/Style1.css" />
+    <title>Ejemplo HTML-CSS</title>
   </head>
-  <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Acerca De</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+  <body class="body">
+    <header class="pageHeader">
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Inicio</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Acerca De</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <div class="content">
         <article class="top">
-            <header>
-                <h2><a href="#">¿Que es HTML5?</a></h2>
-            </header>
-            <footer>/
-                <h5><i>Esto fue posteado el 15/08/2024 </i></h5>/
-            </footer>
-            <content>
-                <p>Durante los ultimos años, el estandar HTML5 se ha estado aafianzando
-                    en muchas paginas web. Sin embargo, ¿que podemos decir con eso? ¿Cual es la diferencia
-                    crucial entre HTML "común", por asi decrilo, y este nuevo estandar? Hoy hablaremos sobre esto y responderemos a la pregunta de qué es HTML5 
-                </p>
-                <p>
-                    HTML 5 es un lenguaje mas semántico. En otras palabras, es un lenguaje que permite a los desarrolladores web describir con mayor precisión el contenido de una pagina web., se dota de un significado a las diferentes
-                    partes de la pagina Wb, de forma que el navegador puede distinguir la parte que forma parte de la cabecera gracias a que hay una etiqueta que dice "cabecera", bueno lo dice en ingles "header". ¿PAra que sirve?
-                    Ayuda a los buscadores como Google a entender la pagina Web, algo que se espera sea positivo para el SEO. y tambien para que los navegadores muestren de forma inteligente diferentes versiones de la pagina Web sin tener que 
-                    usar plugins para dispositivos especificos.  
-                </p>
-            </content>
+          <header>
+            <h2><a href="#">¿Qué es HTML5?</a></h2>
+          </header>
+          <footer>
+            <h5><i>Esto fue posteado el 15/08/2024</i></h5>
+          </footer>
+          <div>
+            <p>
+              Durante los últimos años, el estándar HTML5 se ha estado
+              afianzando en muchas páginas web. Sin embargo, ¿qué podemos decir
+              con eso? ¿Cuál es la diferencia crucial entre HTML "común", por
+              así decirlo, y este nuevo estándar? Hoy hablaremos sobre esto y
+              responderemos a la pregunta de qué es HTML5.
+            </p>
+            <p>
+              HTML5 es un lenguaje más semántico. En otras palabras, es un
+              lenguaje que permite a los desarrolladores web describir con mayor
+              precisión el contenido de una página web. Se dota de un
+              significado a las diferentes partes de la página web, de forma que
+              el navegador puede distinguir la parte que forma parte de la
+              cabecera gracias a que hay una etiqueta que dice "cabecera", bueno
+              lo dice en inglés "header". ¿Para qué sirve? Ayuda a los
+              buscadores como Google a entender la página web, algo que se
+              espera sea positivo para el SEO, y también para que los
+              navegadores muestren de forma inteligente diferentes versiones de
+              la página web sin tener que usar plugins para dispositivos
+              específicos.
+            </p>
+          </div>
         </article>
         <article>
-            <header>
-                <h2><a href="#">Introduccion a CSS3</a></h2>
-            </header>
-            <footer>
-                <h5><i>Esto fue posteado el 15/08/2024</i></h5>
-            </footer>
-            <content>
-                <p>
-                    El nombre hojas de estilo en cascada viene del ingles cascadign style sheets, del que toma sus siglas. CSS es un lenguaje para definir la presentacion de un
-                    documento estructurado escrito en HTML. CSS es el lenguaje que describe como se debe mostrar un documento escrito en HTML.
-                </p>
-                <p>¿Para qué sivre el CSS3?</p>
-                <p>
-                    El CSS sirve para definir la estética de un sitio web en un documento externo y eso mismo permite que modificando este documento se pueda cambiar la estetica entera de un sitio web. El sito puede variar totalmente de estetica
-                    cambiando unicamente solo el CSS, sin toca para nada los documentos HTML que lo componen.
-                </p>
+          <header>
+            <h2><a href="#">Introducción a CSS3</a></h2>
+          </header>
+          <footer>
+            <h5><i>Esto fue posteado el 15/08/2024</i></h5>
+          </footer>
+          <div>
+            <p>
+              El nombre "hojas de estilo en cascada" viene del inglés "cascading
+              style sheets", del que toma sus siglas. CSS es un lenguaje para
+              definir la presentación de un documento estructurado escrito en
+              HTML. CSS es el lenguaje que describe cómo se debe mostrar un
+              documento escrito en HTML.
+            </p>
+            <p>¿Para qué sirve el CSS3?</p>
+            <p>
+              El CSS sirve para definir la estética de un sitio web en un
+              documento externo y eso mismo permite que, modificando este
+              documento, se pueda cambiar la estética entera de un sitio web. El
+              sitio puede variar totalmente de estética cambiando únicamente el
+              CSS, sin tocar para nada los documentos HTML que lo componen.
+            </p>
+          </div>
         </article>
-        <aside class="top-siderbar">
-             <h2>Navegación</h2>
-             <ul class="navigation">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Acerca De</a></li>
-                    <li><a href="#">Contacto</a></li>
-             </ul>     
+      </div>
+      <div class="sidebar-container">
+        <aside class="top-sidebar">
+          <h2>Navegación</h2>
+          <ul class="navigation">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Acerca De</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
         </aside>
         <aside class="bottom-sidebar">
-            <div class="featured">
-                <h2>¿Qué es y para que sirve JavaScript?</h2>
-                <p>JavaScript es un lenguaj ligero e interpretado, orientado a objetos con funciones de primera clase, mas conocido como el lenguaje de script para paginas web, pero tambien esado en muchos entornos sin navegador, tales como node.js     
-                </p>    
-                <a href="#">Leer Mas</a>
-            </div>
+          <div class="featured">
+            <h2>¿Qué es y para qué sirve JavaScript?</h2>
+            <p>
+              JavaScript es un lenguaje ligero e interpretado, orientado a
+              objetos con funciones de primera clase, más conocido como el
+              lenguaje de script para páginas web. Sin embargo, también se usa
+              en muchos entornos sin navegador, tales como Node.js.
+            </p>
+            <a href="#">Leer Más</a>
+          </div>
         </aside>
+      </div>
     </main>
     <footer class="pageFooter">
-        <p>Copyrigth &copy; 2024 --www.testumg.com</p>
+      <p>Copyright &copy; 2024 -- www.testumg.com</p>
     </footer>
   </body>
 </html>
