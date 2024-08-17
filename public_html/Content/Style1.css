@@ -5,24 +5,33 @@
 
 
 body {
-  line-height: 2; 
-  font-family: 'Press Start 2P', cursive; /* Fuente ciberpunk */
-  background-color: #121212; /* Fondo oscuro para resaltar los neones */
+  line-height: 2;
+  font-family: 'Press Start 2P', cursive;
+  /* Fuente ciberpunk */
+  background-color: #121212;
+  /* Fondo oscuro para resaltar los neones */
   color: #e0e0e0;
   margin: 50px;
   padding: 0;
 }
 
-h2{
-    font-weight: normal;
+p {
+  text-align: justify;
 }
+
+h2 {
+  font-weight: normal;
+}
+
 .pageHeader {
   background-color: #1e1e1e;
-  color: #00ff00; /* Verde neón */
+  color: #00ff00;
+  /* Verde neón */
   padding: 10px;
   margin-bottom: 10px;
   border-bottom: 2px solid #00ff00;
-  box-shadow: 0 0 10px #00ff00; /* Efecto neón verde */
+  box-shadow: 0 0 10px #00ff00;
+  /* Efecto neón verde */
 }
 
 .pageHeader nav ul {
@@ -37,14 +46,26 @@ h2{
   margin: 0 15px;
 }
 
+
+
 .pageHeader nav ul li a {
   text-decoration: none;
-  color: #00ff00; /* Verde neón */
+  color: #00ff00;
+  /* Verde neón */
+}
+
+.pageHeader nav ul li a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 5px #ff00ff;
+  /* Efecto neón rosa */
+  color: #ff00ff;
 }
 
 .pageHeader nav ul li.active a {
-  color: #ff00ff; /* Rosa neón para el enlace activo */
-  text-shadow: 0 0 5px #ff00ff; /* Efecto neón rosa */
+  color: #ff00ff;
+  /* Rosa neón para el enlace activo */
+  text-shadow: 0 0 5px #ff00ff;
+  /* Efecto neón rosa */
 }
 
 main {
@@ -56,7 +77,8 @@ main {
 
 .content {
   flex: 1;
-  margin-right: 270px; /* Asegura espacio para los aside */
+  margin-right: 270px;
+  /* Asegura espacio para los aside */
 }
 
 article {
@@ -65,13 +87,16 @@ article {
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra sutil */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  /* Sombra sutil */
 }
 
 article header h2 a {
-  color: #00ff00; /* Verde neón */
+  color: #00ff00;
+  /* Verde neón */
   text-decoration: none;
-  text-shadow: 0 0 5px #00ff00; /* Efecto neón verde */
+  text-shadow: 0 0 5px #00ff00;
+  /* Efecto neón verde */
 }
 
 article footer h5 {
@@ -85,13 +110,17 @@ aside {
   border-radius: 8px;
   padding: 15px;
   position: sticky;
-  top: 20px; /* Espacio desde la parte superior del viewport */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra sutil */
+  top: 20px;
+  /* Espacio desde la parte superior del viewport */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  /* Sombra sutil */
 }
 
 aside h2 {
-  color: #00ff00; /* Verde neón */
-  text-shadow: 0 0 5px #00ff00; /* Efecto neón verde */
+  color: #00ff00;
+  /* Verde neón */
+  text-shadow: 0 0 5px #00ff00;
+  /* Efecto neón verde */
 }
 
 aside ul.navigation {
@@ -106,8 +135,17 @@ aside ul.navigation li {
 
 aside ul.navigation li a {
   text-decoration: none;
-  color: #00ff00; /* Verde neón */
-  text-shadow: 0 0 5px #00ff00; /* Efecto neón verde */
+  color: #00ff00;
+  /* Verde neón */
+  text-shadow: 0 0 5px #00ff00;
+  /* Efecto neón verde */
+}
+
+aside ul.navigation li a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 5px #ff00ff;
+  /* Efecto neón rosa */
+  color: #ff00ff;
 }
 
 aside .featured {
@@ -115,8 +153,10 @@ aside .featured {
 }
 
 aside .featured h2 {
-  color: #00ff00; /* Verde neón */
-  text-shadow: 0 0 5px #00ff00; /* Efecto neón verde */
+  color: #00ff00;
+  /* Verde neón */
+  text-shadow: 0 0 5px #00ff00;
+  /* Efecto neón verde */
 }
 
 aside .featured p {
@@ -124,9 +164,11 @@ aside .featured p {
 }
 
 aside .featured a {
-  color: #ff00ff; /* Rosa neón */
+  color: #ff00ff;
+  /* Rosa neón */
   text-decoration: none;
-  text-shadow: 0 0 5px #ff00ff; /* Efecto neón rosa */
+  text-shadow: 0 0 5px #ff00ff;
+  /* Efecto neón rosa */
 }
 
 .sidebar-container {
@@ -135,7 +177,8 @@ aside .featured a {
 }
 
 .top-sidebar {
-  margin-bottom: 20px; /* Espacio entre los aside */
+  margin-bottom: 20px;
+  /* Espacio entre los aside */
 }
 
 .pageFooter {
@@ -144,13 +187,22 @@ aside .featured a {
   text-align: center;
   padding: 10px;
   border-top: 1px solid #333;
-  box-shadow: 0 0 10px #00ff00; /* Efecto neón verde */
+  box-shadow: 0 0 10px #00ff00;
+  /* Efecto neón verde */
+}
+
+.navigation ul li:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 5px #ff00ff;
+  /* Efecto neón rosa */
+  color: #ff00ff;
 }
 
 /* Media Queries para hacer el diseño responsive */
 @media (max-width: 1200px) {
   .content {
-    margin-right: 200px; /* Ajustar el espacio para los aside en pantallas más pequeñas */
+    margin-right: 200px;
+    /* Ajustar el espacio para los aside en pantallas más pequeñas */
   }
 
   aside {
@@ -177,7 +229,8 @@ aside .featured a {
   }
 
   aside {
-    position: static; /* Cambiar a estático para evitar el efecto sticky en pantallas más pequeñas */
+    position: static;
+    /* Cambiar a estático para evitar el efecto sticky en pantallas más pequeñas */
     width: 100%;
   }
 }
